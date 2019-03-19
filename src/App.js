@@ -20,6 +20,7 @@ import About from './components/about/About';
 import PageDetal from "./components/detail/PageDetal";
 import {saveState} from "./common/LocalSave";
 import PageCart from "./components/cart/PageCart";
+import PageOrder from "./components/order/PageOrder";
 
 const sagaMiddleware = createSagaMiddleware()
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
@@ -47,6 +48,7 @@ export default class App extends Component {
               <Route path='/register' component={Register}/>
               <Route path='/detail/:id' component={PageDetal}/>
               <Route path='/cart' component={PageCart}/>
+              <Route path='/order' component={PageOrder}/>
             </Switch>
             <Footer/>
           </div>
