@@ -26,9 +26,12 @@ export default class OrderSucess extends Component{
             <div className="step-payment__item__content">Thông báo kết quả</div>
           </div>
         </div>
+<<<<<<< HEAD
         <div>
           <h3>Bạn đã mua hàng thành công, chờ chúng tôi gọi lại xác nhận nhé!!!</h3>
         </div>
+=======
+>>>>>>> origin/order
       </div>
       </div>
     );

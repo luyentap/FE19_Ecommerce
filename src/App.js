@@ -21,6 +21,8 @@ import PageDetal from "./components/detail/PageDetal";
 import {saveState} from "./common/LocalSave";
 import PageCart from "./components/cart/PageCart";
 import PageOrder from "./components/order/PageOrder";
+import PageCart from "./components/cart/PageCart";
+import PageOrder from "./components/order/PageOrder";
 import OrderSucess from "./components/order/OrderSucess";
 
 const sagaMiddleware = createSagaMiddleware()
@@ -48,6 +50,8 @@ export default class App extends Component {
               <Route path='/blog' component={Blog}/>
               <Route path='/register' component={Register}/>
               <Route path='/detail/:id' component={PageDetal}/>
+              <Route path='/cart' component={PageCart}/>
+              <Route path='/order' component={PageOrder}/>
               <Route path='/cart' component={PageCart}/>
               <Route path='/order' component={PageOrder}/>
               <Route path='/sucess' component={OrderSucess}/>
