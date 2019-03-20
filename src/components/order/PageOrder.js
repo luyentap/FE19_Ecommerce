@@ -6,11 +6,10 @@ import ContactForm from "./ContactForm";
 export default class PageOrder extends Component{
   render() {
     return (
-      <div>
+      <div className="container">
         <Intro/>
         <ContactForm/>
       </div>
     );
   }
-
 }

@@ -6,7 +6,7 @@ export default class Intro extends Component{
     return (
         <div className="link-intro">
           <Link to="/">Home ></Link>
-          <Link className="cl-green" to="/cart">Giỏ hàng ></Link>
+          <Link className="cl-green" to="/cart">Đăt hàng ></Link>
         </div>
     );
   }
